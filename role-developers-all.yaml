@@ -1,0 +1,8 @@
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1beta1
+metadata:
+  name: developers-all
+rules:
+- apiGroups: ["*"]
+  resources: ["*"]
+  verbs: ["*"]
